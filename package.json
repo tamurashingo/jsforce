@@ -170,6 +170,7 @@
     }
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "wireit",
     "build:node:cjs": "wireit",
     "build:transpile": "wireit",
