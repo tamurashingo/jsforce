@@ -139,8 +139,8 @@ export class OAuth2 {
     }
 
     const _params = {
-      ...params,
       response_type: 'code',
+      ...params,
       client_id: this.clientId,
       redirect_uri: this.redirectUri,
     };
